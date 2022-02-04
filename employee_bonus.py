@@ -15,3 +15,5 @@ for record in employee_pay:
 
     print("Total pay: $" + str(total_pay))
     input()
+
+infile.close()

@@ -12,3 +12,6 @@ for record in customer_file:
     customer_country.write(record[1] + "," + record[2] + "," + record[4] + "\n")
     count += 1
 print("Total number of customers:", count)
+
+customers.close()
+customer_country.close()
